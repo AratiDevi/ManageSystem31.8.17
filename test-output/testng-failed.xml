@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="purchase_Admin.CatalogueItemsTest">
+        <methods>
+          <include name="SearchDeleteCatalogue"/>
+          <include name="SearchRestoredStoresItem__Spare"/>
+          <include name="DeleteStoresItem__Spare"/>
+          <include name="SearchMoveItems__Spare"/>
+          <include name="closeBrowser"/>
+          <include name="afterSu"/>
+          <include name="SearchRestoredCatalogue__Spare"/>
+          <include name="DeleteSubCatalogue__Spare"/>
+          <include name="MoveItems__Spare"/>
+          <include name="beforeSu"/>
+          <include name="initialioseBrowser"/>
+          <include name="OverwriteCopyItems__Spare"/>
+          <include name="RestoreCatalogue__Spare"/>
+          <include name="RestoreStoresItem__Spare"/>
+          <include name="SearchOverwriteCopyItems__Spare"/>
+          <include name="DeleteCatalogue__Spare"/>
+          <include name="afterMethod"/>
+          <include name="SearchDeletedStoresItem__Spare"/>
+        </methods>
+      </class> <!-- purchase_Admin.CatalogueItemsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

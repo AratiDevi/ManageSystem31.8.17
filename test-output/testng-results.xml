@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="468427" started-at="2017-08-28T12:12:29Z" finished-at="2017-08-28T12:20:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="468427" started-at="2017-08-28T12:12:29Z" finished-at="2017-08-28T12:20:17Z">
+      <class name="purchase_Admin.CatalogueItemsTest">
+        <test-method status="PASS" signature="initialioseBrowser()[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="initialioseBrowser" is-config="true" duration-ms="20025" started-at="2017-08-28T17:42:09Z" finished-at="2017-08-28T17:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialioseBrowser -->
+        <test-method status="PASS" signature="beforeSu()[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="beforeSu" is-config="true" duration-ms="94" started-at="2017-08-28T17:42:29Z" depends-on-methods="common_Function.WebDriverPass.initialioseBrowser" finished-at="2017-08-28T17:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSu -->
+        <test-method status="PASS" signature="ManageSystems()[pri:57, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="ManageSystems" duration-ms="3008" started-at="2017-08-28T17:42:29Z" finished-at="2017-08-28T17:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageSystems -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="194" started-at="2017-08-28T17:42:32Z" finished-at="2017-08-28T17:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ManageSystems status=SUCCESS method=CatalogueItemsTest.ManageSystems()[pri:57, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="OverwriteCopyItems__Spare()[pri:183, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="OverwriteCopyItems__Spare" duration-ms="84390" started-at="2017-08-28T17:42:32Z" finished-at="2017-08-28T17:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverwriteCopyItems__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="60" started-at="2017-08-28T17:43:56Z" finished-at="2017-08-28T17:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OverwriteCopyItems__Spare status=SUCCESS method=CatalogueItemsTest.OverwriteCopyItems__Spare()[pri:183, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchOverwriteCopyItems__Spare()[pri:184, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="SearchOverwriteCopyItems__Spare" duration-ms="27420" started-at="2017-08-28T17:43:57Z" finished-at="2017-08-28T17:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOverwriteCopyItems__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="52" started-at="2017-08-28T17:44:24Z" finished-at="2017-08-28T17:44:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchOverwriteCopyItems__Spare status=SUCCESS method=CatalogueItemsTest.SearchOverwriteCopyItems__Spare()[pri:184, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="MoveItems__Spare()[pri:185, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="MoveItems__Spare" duration-ms="85722" started-at="2017-08-28T17:44:24Z" finished-at="2017-08-28T17:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveItems__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="50" started-at="2017-08-28T17:45:50Z" finished-at="2017-08-28T17:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MoveItems__Spare status=SUCCESS method=CatalogueItemsTest.MoveItems__Spare()[pri:185, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchMoveItems__Spare()[pri:186, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="SearchMoveItems__Spare" duration-ms="25350" started-at="2017-08-28T17:45:50Z" finished-at="2017-08-28T17:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchMoveItems__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="31" started-at="2017-08-28T17:46:15Z" finished-at="2017-08-28T17:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchMoveItems__Spare status=SUCCESS method=CatalogueItemsTest.SearchMoveItems__Spare()[pri:186, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DeleteStoresItem__Spare()[pri:187, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="DeleteStoresItem__Spare" duration-ms="30348" started-at="2017-08-28T17:46:15Z" finished-at="2017-08-28T17:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteStoresItem__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="33" started-at="2017-08-28T17:46:46Z" finished-at="2017-08-28T17:46:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteStoresItem__Spare status=SUCCESS method=CatalogueItemsTest.DeleteStoresItem__Spare()[pri:187, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchDeletedStoresItem__Spare()[pri:188, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="SearchDeletedStoresItem__Spare" duration-ms="29331" started-at="2017-08-28T17:46:46Z" finished-at="2017-08-28T17:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDeletedStoresItem__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="34" started-at="2017-08-28T17:47:15Z" finished-at="2017-08-28T17:47:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchDeletedStoresItem__Spare status=SUCCESS method=CatalogueItemsTest.SearchDeletedStoresItem__Spare()[pri:188, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="RestoreStoresItem__Spare()[pri:189, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="RestoreStoresItem__Spare" duration-ms="29196" started-at="2017-08-28T17:47:15Z" finished-at="2017-08-28T17:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestoreStoresItem__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="47" started-at="2017-08-28T17:47:44Z" finished-at="2017-08-28T17:47:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RestoreStoresItem__Spare status=SUCCESS method=CatalogueItemsTest.RestoreStoresItem__Spare()[pri:189, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchRestoredStoresItem__Spare()[pri:190, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="SearchRestoredStoresItem__Spare" duration-ms="29199" started-at="2017-08-28T17:47:44Z" finished-at="2017-08-28T17:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchRestoredStoresItem__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="47" started-at="2017-08-28T17:48:13Z" finished-at="2017-08-28T17:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchRestoredStoresItem__Spare status=SUCCESS method=CatalogueItemsTest.SearchRestoredStoresItem__Spare()[pri:190, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DeleteSubCatalogue__Spare()[pri:191, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="DeleteSubCatalogue__Spare" duration-ms="28076" started-at="2017-08-28T17:48:13Z" finished-at="2017-08-28T17:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteSubCatalogue__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="47" started-at="2017-08-28T17:48:42Z" finished-at="2017-08-28T17:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteSubCatalogue__Spare status=SUCCESS method=CatalogueItemsTest.DeleteSubCatalogue__Spare()[pri:191, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DeleteCatalogue__Spare()[pri:192, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="DeleteCatalogue__Spare" duration-ms="27919" started-at="2017-08-28T17:48:42Z" finished-at="2017-08-28T17:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCatalogue__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="20" started-at="2017-08-28T17:49:09Z" finished-at="2017-08-28T17:49:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteCatalogue__Spare status=SUCCESS method=CatalogueItemsTest.DeleteCatalogue__Spare()[pri:192, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchDeleteCatalogue()[pri:193, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="SearchDeleteCatalogue" duration-ms="17826" started-at="2017-08-28T17:49:10Z" finished-at="2017-08-28T17:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDeleteCatalogue -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="56" started-at="2017-08-28T17:49:27Z" finished-at="2017-08-28T17:49:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchDeleteCatalogue status=SUCCESS method=CatalogueItemsTest.SearchDeleteCatalogue()[pri:193, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="RestoreCatalogue__Spare()[pri:194, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="RestoreCatalogue__Spare" duration-ms="30002" started-at="2017-08-28T17:49:27Z" finished-at="2017-08-28T17:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestoreCatalogue__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="32" started-at="2017-08-28T17:49:57Z" finished-at="2017-08-28T17:49:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RestoreCatalogue__Spare status=SUCCESS method=CatalogueItemsTest.RestoreCatalogue__Spare()[pri:194, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchRestoredCatalogue__Spare()[pri:195, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="SearchRestoredCatalogue__Spare" duration-ms="19854" started-at="2017-08-28T17:49:57Z" finished-at="2017-08-28T17:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchRestoredCatalogue__Spare -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterMethod" is-config="true" duration-ms="33" started-at="2017-08-28T17:50:17Z" finished-at="2017-08-28T17:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchRestoredCatalogue__Spare status=SUCCESS method=CatalogueItemsTest.SearchRestoredCatalogue__Spare()[pri:195, instance:purchase_Admin.CatalogueItemsTest@26425897] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSu()[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="afterSu" is-config="true" duration-ms="23" started-at="2017-08-28T17:50:17Z" finished-at="2017-08-28T17:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:purchase_Admin.CatalogueItemsTest@26425897]" name="closeBrowser" is-config="true" duration-ms="937" started-at="2017-08-28T17:50:17Z" depends-on-methods="purchase_Admin.CatalogueItemsTest.afterSu" finished-at="2017-08-28T17:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- purchase_Admin.CatalogueItemsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

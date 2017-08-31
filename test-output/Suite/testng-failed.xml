@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="purchase_Admin.UnitPackingsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="initialioseBrowser"/>
+        </methods>
+      </class> <!-- purchase_Admin.UnitPackingsTest -->
+      <class name="purchase_Admin.PurchaseSettingsTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="AutomaticRequisition"/>
+          <include name="CaptureRank"/>
+          <include name="PurchaseMandatory"/>
+          <include name="PurchaseConfigSetting"/>
+        </methods>
+      </class> <!-- purchase_Admin.PurchaseSettingsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
